@@ -11,7 +11,7 @@ void input(int arr[],int n)
 	}
 }
 
-void output(int arr[],int n)
+void output(int arr[],int n) //function to display output of array.
 {
 	for(int i = 0; i < n; i++)
 	{
@@ -21,7 +21,8 @@ void output(int arr[],int n)
 	cout<<endl;
 }
 
-void recursive_insertion_sort(int arr[],int n)
+void recursive_insertion_sort(int arr[],int n)  //recursive funtion for insertion sort. complexity is 0(n^2).
+						//it is one of many sorting algorithms.
 {
 	if(n <= 1) return;
 
